@@ -97,17 +97,16 @@ textarea {
 }
 
 .logo-mark {
-  width: 2.4rem;
-  height: 2.4rem;
-  border-radius: 1rem;
-  background: radial-gradient(circle at 35% 20%, #bbf7d0, #22c55e);
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  color: #064e3b;
-  box-shadow: 0 10px 26px rgba(22, 163, 74, 0.35);
+}
+
+.logo-mark img {
+  height: 3rem;
+  width: auto;
+  display: block;
+  object-fit: contain;
 }
 
 .logo-text {
@@ -643,6 +642,10 @@ p {
   display: flex;
   align-items: center;
   gap: 0.7rem;
+  padding: 0.55rem 0.9rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.12);
 }
 
 .footer-copy {
@@ -723,6 +726,15 @@ p {
     display: none;
   }
 
+  .footer-grid {
+    padding-top: 2.8rem;
+  }
+
+  .footer-logo {
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+  }
+
   .nav-list {
     position: absolute;
     top: var(--nav-height);
@@ -789,7 +801,7 @@ p {
   }
 
   .hero {
-    padding-top: 2.1rem;
+    padding-top: 3.2rem;
   }
 
   .section {
