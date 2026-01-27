@@ -1,6 +1,6 @@
-## Balaji Global Exports Demo Site
+## JPR Global Export Demo Site
 
-This is a modern, single-page marketing website for **Balaji Global Exports**, inspired by the existing site at [`https://globalvictus.com/`](https://globalvictus.com/), but rebuilt with a clean, responsive design and without any spam content.
+This is a modern, single-page marketing website for **JPR Global Export**, inspired by the existing site at [`https://globalvictus.com/`](https://globalvictus.com/), but rebuilt with a clean, responsive design and without any spam content.
 
 ### Tech Stack
 
